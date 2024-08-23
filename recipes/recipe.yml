@@ -10,13 +10,8 @@ modules:
       - source: system
         destination: / 
 
-  - type: rpm-ostree
-    install:
-      - neovim
-    remove:
-      - firefox
-      - firefox-langpacks
-
+  - from-file: common-packages
+  
   - type: default-flatpaks
     notify: true
     system:
