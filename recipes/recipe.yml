@@ -10,7 +10,7 @@ modules:
       - source: system
         destination: / 
 
-  - from-file: common-packages
+  - from-file: common-packages.yml
   
   - type: default-flatpaks
     notify: true
