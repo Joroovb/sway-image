@@ -1,4 +1,4 @@
 [General]
 type=color
 displayFont="San Francisco Display"
-background=wallpaper.png
+background=/usr/share/sddm/themes/breeze2/wallpaper.png
