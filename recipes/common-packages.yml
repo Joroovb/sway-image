@@ -3,14 +3,14 @@ remove:
   - firefox
   - firefox-langpacks
 install:
-# launcher
+  # launcher
   - rofi-wayland
 
-# environment
+  # environment
   - power-profiles-daemon
   - xorg-x11-server-Xwayland
   - polkit
-  - xfce-polkit 
+  - xfce-polkit
   - xdg-user-dirs
   - dbus-tools
   - dbus-daemon
@@ -24,14 +24,14 @@ install:
   - google-noto-emoji-fonts
   - gnome-disk-utility
   - ddcutil
-  
-# sound
+
+  # sound
   - wireplumber
   - pipewire
   - pamixer
   - pulseaudio-utils
 
-# networking
+  # networking
   - network-manager-applet
   - NetworkManager-openvpn
   - NetworkManager-openconnect
@@ -39,9 +39,9 @@ install:
   - bluez-tools
   - blueman
 
-# file manager
+  # file manager
   - thunar
-  - thunar-archive-plugin 
+  - thunar-archive-plugin
   - thunar-volman
   - xarchiver
   - imv
@@ -55,11 +55,11 @@ install:
   - gvfs-archive
   - android-tools
 
-# screenshot
+  # screenshot
   - slurp
   - grim
 
-# display
+  # display
   - wlr-randr
   - wlsunset
   - brightnessctl
@@ -67,18 +67,19 @@ install:
   - swayidle
   - kanshi
 
-# terminal
+  # terminal
   - foot
   - neovim
 
-# notifications
+  # notifications
   - dunst
 
-# theme and GUI
+  # theme and GUI
   - adwaita-qt5
   - fontawesome-fonts-all
   - gnome-themes-extra
   - gnome-icon-theme
   - paper-icon-theme
-  - breeze-icon-theme 
+  - breeze-icon-theme
   - papirus-icon-theme
+  - sddm-breeze
