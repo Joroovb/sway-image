@@ -1,7 +1,7 @@
 * {
-    font-family: "Noto Sans Mono", "Font Awesome 6 Free",
-        "Font Awesome 6 Brands", monospace;
-    font-size: 13px;
+    font-family: "Iosevka Nerd Font Mono", "Noto Sans Mono",
+        "Font Awesome 6 Free", "Font Awesome 6 Brands", monospace;
+    font-size: 16px;
 }
 
 @define-color inactive_module_color #a9a9a9;
@@ -132,7 +132,7 @@ window#waybar.bottom #workspaces button.focused {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #fb4934;
 }
 
 #mode {
@@ -154,13 +154,13 @@ window#waybar.bottom #mode {
 
 #battery.charging,
 #battery.plugged {
-    color: #32cd32;
+    color: #b8bb26;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #ebdbb2;
+        color: #282828;
     }
 }
 
@@ -219,7 +219,7 @@ window#waybar.bottom #mode {
 
 #cpu.high,
 #temperature.critical {
-    color: #eb4d4b;
+    color: #fb4934;
 }
 
 #language {
@@ -246,50 +246,47 @@ window#waybar.bottom #mode {
     background-color: transparent;
 }
 
-/*
- * Module colors
- */
 #cpu {
-    color: #2ecc71;
+    /* color: #2ecc71; */
 }
 
 #memory {
-    color: #ba55d3;
+    /* color: #ba55d3; */
 }
 
 #disk {
-    color: #964b00;
+    /* color: #964b00; */
 }
 
 #backlight {
-    color: #90b1b1;
+    /* color: #90b1b1; */
 }
 
 #network {
-    color: #00bfff;
+    /* color: #00bfff; */
 }
 
 #pulseaudio,
 #wireplumber {
-    color: #f1c40f;
+    /* color: #f1c40f; */
 }
 
 #temperature {
-    color: #f0932b;
+    /* color: #f0932b; */
 }
 
 #mpd {
-    color: #66cc99;
+    /* color: #66cc99; */
 }
 
 #mpd.paused {
-    color: #51a37a;
+    /* color: #51a37a; */
 }
 
 #language {
-    color: #00b093;
+    /* color: #00b093; */
 }
 
 #keyboard-state {
-    color: #97e1ad;
+    /* color: #97e1ad; */
 }
