@@ -8,14 +8,14 @@ modules:
   - type: files
     files:
       - source: system
-        destination: / 
-  
+        destination: /
+
   - from-file: sddm-packages.yml
   - from-file: common-packages.yml
   - from-file: common-files.yml
   - from-file: common-scripts.yml
-  
-  
+  - from-file: fonts.yml
+
   - type: default-flatpaks
     notify: true
     system:
@@ -25,4 +25,3 @@ modules:
         - org.mozilla.firefox
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
