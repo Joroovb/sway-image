@@ -121,7 +121,6 @@ window#waybar #window {
 
 #workspaces button.focused {
     background-color: #928374;
-    color: #282828;
 }
 
 window#waybar:not(.bottom):not(.left):not(.right) #workspaces button.focused {
@@ -177,7 +176,7 @@ window#waybar.bottom #mode {
 #network.disconnected,
 #pulseaudio.muted,
 #wireplumber.muted {
-    color: @inactive_module_color;
+    /* color: @inactive_module_color; */
 }
 
 #tray {
@@ -205,17 +204,17 @@ window#waybar.bottom #mode {
 }
 
 #idle_inhibitor {
-    color: @inactive_module_color;
+    /* color: inherit; */
 }
 
 #idle_inhibitor.activated {
-    color: inherit;
+    /* color: inherit; */
 }
 
 #mpd.disconnected,
 #mpd.paused,
 #mpd.stopped {
-    color: @inactive_module_color;
+    color: inherit;
 }
 
 #cpu.high,
@@ -245,49 +244,4 @@ window#waybar.bottom #mode {
 
 #scratchpad.empty {
     background-color: transparent;
-}
-
-#cpu {
-    /* color: #2ecc71; */
-}
-
-#memory {
-    /* color: #ba55d3; */
-}
-
-#disk {
-    /* color: #964b00; */
-}
-
-#backlight {
-    /* color: #90b1b1; */
-}
-
-#network {
-    /* color: #00bfff; */
-}
-
-#pulseaudio,
-#wireplumber {
-    /* color: #f1c40f; */
-}
-
-#temperature {
-    /* color: #f0932b; */
-}
-
-#mpd {
-    /* color: #66cc99; */
-}
-
-#mpd.paused {
-    /* color: #51a37a; */
-}
-
-#language {
-    /* color: #00b093; */
-}
-
-#keyboard-state {
-    /* color: #97e1ad; */
 }
