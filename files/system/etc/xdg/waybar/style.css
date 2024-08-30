@@ -173,12 +173,6 @@ window#waybar.bottom #mode {
     animation-direction: alternate;
 }
 
-#network.disconnected,
-#pulseaudio.muted,
-#wireplumber.muted {
-    /* color: @inactive_module_color; */
-}
-
 #tray {
     padding: 0 5px;
 }
@@ -201,14 +195,6 @@ window#waybar.bottom #mode {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     background-color: transparent;
-}
-
-#idle_inhibitor {
-    /* color: inherit; */
-}
-
-#idle_inhibitor.activated {
-    /* color: inherit; */
 }
 
 #mpd.disconnected,
