@@ -24,6 +24,7 @@ install:
   - google-noto-emoji-fonts
   - gnome-disk-utility
   - ddcutil
+  - wl-mirror
 
   # sound
   - wireplumber
