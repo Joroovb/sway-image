@@ -55,6 +55,9 @@ install:
   - gvfs-fuse
   - gvfs-archive
   - android-tools
+  - zathura
+  - zathura-bash-completion
+  - zathura-plugins-all
 
   # screenshot
   - slurp
